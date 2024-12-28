@@ -1,0 +1,30 @@
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+  body {
+    font-family: 'San Francisco', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f5;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .cta-button {
+    padding: 16px 32px;
+    font-size: 18px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .cta-button:hover {
+    background-color: #005bb5;
+  }
+`;
+
+export default GlobalStyles;
